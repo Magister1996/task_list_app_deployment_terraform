@@ -2,7 +2,7 @@ name: CI/CD
 
 on:
   # Choose your workflow strategy!
-  pull_request:
+  push:
     branches:
       - main
 
